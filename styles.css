@@ -1,0 +1,161 @@
+/***************************************
+Author: Md. Jamal Uddin
+Date: June, 2017
+for: FCC Responsive Design Challenges.
+****************************************/
+
+html, body {
+  font-family: 'El Messiri', Lobster, Merriweather, sans-serif;
+  margin: 0px;
+}
+
+/************************
+          header
+*************************/
+
+#header {
+  text-align: center;
+  padding: 20px;
+  font-family: Merriweather, sans-serif;
+  background-color: #00E871;
+  color: #000;
+}
+
+#header-img {
+  margin-bottom: -12px;
+}
+
+#nav-bar {
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  float: left;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF10BC;
+  text-decoration: underline;
+}
+
+/*************************
+        Product Details
+**************************/
+
+#products {
+  font-family: Merriweather;
+  background-color: #F2DB0F;
+  padding: 20px;
+}
+
+#direction {
+  font-family: Lobster, Merriweather, sans-serif;
+  background-color: cyan;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+/***************************
+          Gallery 
+****************************/
+
+#photos {
+  background-color: #AA009C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  margin: 50px;
+}
+
+#g-img  {
+  padding: 10px;
+  width: 300px;
+  border: 3px solid GhostWhite;
+  border-radius: 5px;
+}
+
+/*****************************
+        contact form
+*****************************/
+
+#contact {
+  background-color: #CCA0FF;
+  font-family: Merriweather, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type=text], input[type=email] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    margin-left: 50px;
+    width: 25%;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/*****************************
+           footer
+*****************************/
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+footer a {
+  color: #DDBA06;
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/*******************************
+         Responsivity
+********************************/
+@media screen and (max-width: 568px) {
+    body {
+        height: 100%!important;
+        background-attachment: initial !important;
+        overflow: auto!important;
+        min-height: 900px!important;
+        font-size: 11px;
+    }
+}
