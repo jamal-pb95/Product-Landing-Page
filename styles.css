@@ -4,8 +4,6 @@ Date: June, 2017
 for: FCC Responsive Design Challenges.
 ****************************************/
 
-@import url('https://fonts.googleapis.com/css?family=El+Messiri|Merriweather|Lobster');
-
 html, body {
   font-family: 'El Messiri', Lobster, Merriweather, sans-serif;
   margin: 0px;
